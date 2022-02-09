@@ -1,0 +1,29 @@
+$baseUrl="http://localhost/blog/"; 
+ $slug=$row['articleSlug']; 
+  $articleIdc=$row['articleId']; 
+
+
+        <?php 
+$baseUrl="http://localhost/blog/"; 
+ $slug=$row['articleSlug']; 
+  $articleIdc=$row['articleId']; 
+
+
+?>             
+
+     <p><strong>Share </strong></p>
+              <ul>
+                  
+                <a target="_blank" href="http://www.facebook.com/sharer.php?u=<?php echo $baseUrl.$slug; ?>"> <img src="assets/images/facebook.png" >
+                
+                <a target="_blank" href="http://twitter.com/share?text=Visit the link &url=<?php echo $baseUrl.$slug; ?>&hashtags=blog,technosmarter,programming,tutorials,codes,examples,language,development">
+ <img src="assets/images/twitter.png" >
+               
+                <a target="_blank" href="http://www.linkedin.com/shareArticle?mini=true&url=<?php echo $baseUrl.$slug; ?>"> <img src="assets/images/linkedin.png" >
+                
+                 <a target="_blank" href="http://pinterest.com/pin/create/button/?url=<?php echo $baseUrl.$slug; ?>">
+ <img src="assets/images/pinterest.png" >
+              </ul>
+
+
+Home Keywords

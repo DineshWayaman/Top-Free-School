@@ -1,0 +1,168 @@
+*{
+    font-family: 'Merriweather', serif;
+}
+
+/* Start Blog Posts CSS */
+
+
+#pinBoot {
+    position: relative;
+    max-width: 100%;
+    width: 100%;
+  }
+
+.white-panel {
+    position: absolute;
+    background: white;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.3);
+    padding: 10px;
+  }
+
+.white-panel p{
+  color: black;
+  }
+
+  .white-panel h4 a{
+    text-decoration: none;
+    color: black;
+  }
+
+  .white-panel a:hover{
+    color: rgb(0, 174, 255);
+  }
+
+
+  img {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+  }
+
+.white-panel h1 {
+    font-size: 1em;
+  }
+  .white-panel h1 a {
+    color: #A92733;
+  }
+
+
+  .white-panel p{
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 7;
+    -webkit-box-orient: vertical;
+  }
+
+  .white-panel:hover {
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.5);
+    margin-top: -5px;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+  }
+
+/* End Blog Posts CSS */
+
+.card-link-color{
+  color: rgb(0, 174, 255);
+}
+
+.two-lines{
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    color: black;
+}
+
+.side-a{
+  text-decoration: none;
+  color: black;
+}
+
+.side-a:hover{
+  color: rgb(0, 174, 255);
+}
+
+.text-dec-li{
+  text-decoration: none;
+  color: black;
+}
+
+.text-dec-li:hover{
+  color: #0d6dfd;
+}
+
+.footer-copy:hover{
+  color: crimson;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.con-head img{
+  opacity: 0.4;
+  background-color: rgba(0, 0, 0, .5);
+  height: 500px;
+}
+
+.con-head{
+  position: relative;
+  text-align: center;
+  background-color: rgba(0, 0, 0, .5);
+}
+
+.con-head h1, p{
+  color: white;
+  cursor: pointer;
+}
+
+.content-padd p img{
+    width: 100%;
+    min-width: 100%;
+}
+
+.content-padd p{
+  padding-left: 15%;
+  padding-right: 15%;
+  line-height: 1.8;
+  color: black;
+}
+
+.card-body p{
+  color: black;
+}
+
+.trend-blog-title{
+  cursor: pointer;
+}
+
+.trend-blog-title:hover{
+  color: coral;
+}
+
+footer p{
+  color: black;
+}
+@media only screen and (max-width: 600px) {
+   .mobile-sidebar{
+     display: none;
+   }
+
+   .content-padd p{
+    padding-left: 0%;
+    padding-right: 0%;
+    color: black;
+  }
+
+  .con-head img{
+    height: 300px;
+  }
+
+
+}

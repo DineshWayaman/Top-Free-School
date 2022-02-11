@@ -1,4 +1,8 @@
 RewriteEngine On
+RewriteRule ^sitemap\.xml/?$ sitemap.php
+
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteRule ^(.*)$ postview.php/$1 [L]
+
+

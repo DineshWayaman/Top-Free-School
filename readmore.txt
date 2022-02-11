@@ -27,3 +27,46 @@ $baseUrl="http://localhost/blog/";
 
 
 Home Keywords
+
+
+
+Get Just Date
+
+<?php
+$date2 = '2021-06-08 13:18:43';
+ 
+echo '<b>The timstamp format is:</b>    ' .strtotime($date2).'<br>';
+ 
+echo '<b>The extracted date from the above timestamp is:</b>   '.date('Y-m-d',strtotime($date2));
+?>
+
+
+
+
+db = sakwlgjd_topfreeschool
+user = sakwlgjd_topfree_user
+pass = sakwlgjd_topfree_user
+
+
+
+
+
+tobot.text
+User-agent: Googlebot
+Disallow: 
+User-agent: googlebot-image
+Disallow: 
+User-agent: googlebot-mobile
+Disallow: 
+User-agent: MSNBot
+Disallow: 
+User-agent: Slurp
+Disallow: 
+User-agent: yahoo-mmcrawler
+Disallow: 
+User-agent: psbot
+Disallow: 
+User-agent: yahoo-blogs/v3.9
+Disallow: 
+User-agent: *
+Disallow: /

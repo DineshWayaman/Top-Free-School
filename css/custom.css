@@ -25,6 +25,7 @@
   .white-panel h4 a{
     text-decoration: none;
     color: black;
+    margin: 0;
   }
 
   .white-panel a:hover{
@@ -125,6 +126,8 @@
 .content-padd p img{
     width: 100%;
     min-width: 100%;
+    min-height: 300px;
+    max-height: 400px;
 }
 
 .content-padd p{
@@ -132,6 +135,17 @@
   padding-right: 15%;
   line-height: 1.8;
   color: black;
+}
+
+
+
+.content-padd table{
+  max-width: 100%;
+}
+
+.content-padd li{
+  margin-left: 15%;
+  margin-right: 15%;
 }
 
 .card-body p{
@@ -149,6 +163,12 @@
 footer p{
   color: black;
 }
+
+.disclaimer p{
+  color: black;
+}
+
+
 @media only screen and (max-width: 600px) {
    .mobile-sidebar{
      display: none;
@@ -163,6 +183,29 @@ footer p{
   .con-head img{
     height: 300px;
   }
+
+  .content-padd p img{
+    width: 100%;
+    min-width: 100%;
+    min-height: 250px;
+    max-height: 250px;
+}
+
+.content-padd h1,h2,h3,h4,h5,h6,code,pre{
+  margin-left: 0;
+  margin-right: 0;
+  text-align: left;
+}
+
+.content-padd table,th,td,tr{
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.content-padd li{
+  margin-left: 0;
+  margin-right: 0;
+}
 
 
 }

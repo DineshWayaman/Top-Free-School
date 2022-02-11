@@ -1,3 +1,4 @@
+<?php include('config/dbconfig.php') ?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -6,6 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
     <?php include('includes/home-meta.php') ?>
+    <?php include('includes/google-analytics.php') ?>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Merriweather&display=swap" rel="stylesheet">
@@ -58,7 +60,7 @@
                 <div class="row">
                     <?php include('includes/main-posts.php') ?>
                     <div class="mt-4 text-center">
-                        <a href="#"><h6>View All</h6></a>
+                        <a href="#"><h6 class="text-center">View All</h6></a>
                     </div>
                 </div>
             </div>

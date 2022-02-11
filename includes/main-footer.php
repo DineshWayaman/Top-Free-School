@@ -29,22 +29,22 @@
 
         <ul class="list-unstyled"  class="text-dec-li">
           <li>
-            <a href="#!" class="text-dec-li">Home</a>
+            <a href="index.php" class="text-dec-li">Home</a>
           </li>
           <li>
-            <a href="#!" class="text-dec-li">Social Activities</a>
+            <a href="about-us.php" class="text-dec-li">About Us</a><br>
           </li>
           <li>
-            <a href="#!" class="text-dec-li">Events</a><br>
+          <a href="contact-us.php" class="text-dec-li">Contact Us</a><br>
           </li>
           <li>
-          <a href="#!" class="text-dec-li">News</a><br>
+          <a href="privacy-policy.php" class="text-dec-li">Privacy Policy</a><br>
           </li>
           <li>
-          <a href="#!" class="text-dec-li">Blog</a><br>
+          <a href="disclaimer.php" class="text-dec-li">Disclaimer</a><br>
           </li>
           <li>
-          <a href="#!" class="text-dec-li">About Us</a><br>
+          <a href="terms-and-conditions.php" class="text-dec-li">Terms and Condition</a><br>
           </li>
         </ul>
 
@@ -55,7 +55,7 @@
       <div class="col-md-3 mb-md-0 mb-3">
 
         <!-- Links -->
-        <h5 class="text-uppercase">Contact Us</h5>
+        <h5 class="text-uppercase text-center">Contact Us</h5>
 
         <ul class="list-unstyled f-contact">
           <li>

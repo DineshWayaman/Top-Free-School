@@ -13,26 +13,39 @@
         Catagories
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item" href="#">Technology</a>
-          <a class="dropdown-item" href="#">Development</a>
-          <a class="dropdown-item" href="#">News</a>
+        <?php
+                    $getAllCat = "SELECT * FROM `categories`";
+                    $getCat = $conn->prepare($getAllCat);
+                    $getCat->execute();
+                    $catrow = $getCat->rowCount();
+
+                    if ($catrow > 0) {
+                        while ($catfetch = $getCat->fetch()) {
+
+                    ?>
+          <a class="dropdown-item" href="cat_view.php?cat=<?php echo $catfetch['c_name'] ?>"><?php echo $catfetch['c_name'] ?></a>
+         
+         <?php
+                        }
+                    }
+                    ?>
 
         </div>
       </li>
       <li class="nav-item active">
-        <a class="nav-link" href="blogs.php">About Us</a>
+        <a class="nav-link" href="about-us.php">About Us</a>
       </li>
       <li class="nav-item active">
-        <a class="nav-link" href="#">Contact Us</a>
+        <a class="nav-link" href="contact-us.php">Contact Us</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Privacy Policy</a>
+        <a class="nav-link" href="privacy-policy.php">Privacy Policy</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Disclaimer</a>
+        <a class="nav-link" href="disclaimer.php">Disclaimer</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Terms and Condition</a>
+        <a class="nav-link" href="terms-and-conditions.php">Terms and Condition</a>
       </li>
     </ul>
   </div>

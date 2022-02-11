@@ -1,0 +1,10 @@
+.content-padd h1,h2,h3,h5,h6,code,pre{
+    margin-left: 15%;
+    margin-right: 15%;
+    text-align: left;
+  }
+  
+  .content-padd table,th,td,tr{
+    margin-left: 15%;
+    margin-right: 15%;
+  }
